@@ -1,12 +1,3 @@
-// ints
-// insert node at first
-// insert node at last
-// insert node at position
-// delete node at position
-// update node value
-// search element in list
-// display list
-
 #include <stdlib.h>
 #include <stdio.h>
 #include "singly_linked_lists.h"
