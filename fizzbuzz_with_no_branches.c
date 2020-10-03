@@ -16,7 +16,7 @@ int main (void) {
 }
 
 char* fizzbuzz(unsigned int n) {
-    char* (*char_funcs[])(unsigned in) = {
+    char* (*char_funcs[])(unsigned int) = {
         number_to_string,
         return_fizz,
         return_buzz,
