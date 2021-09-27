@@ -48,11 +48,12 @@ char *get_string(void) {
     // gets an arbitrary string from stdin without having gets problems
     int buff_size = 100;
     int i = 0;
+    unsigned long cur_len = 0;
     char buffer[buff_size];
     char c;
     char *result = malloc(sizeof(char));
     *result = '\0';
-    unsigned long cur_len = 0;
+    memset(buffer, 0, buff_size);
 
     while ((c = getchar()) != EOF) {
         if (i == buff_size) {
